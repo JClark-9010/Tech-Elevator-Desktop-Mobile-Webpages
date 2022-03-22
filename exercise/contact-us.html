@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TE Popsicles Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="contact-grid">
+
+    <header id="contact-head">
+        <div>
+            <img src="images/te-pops.png" alt="TE Pop Logo" class="te-pop-logo">
+            <h1 id="headline">Tech Elevator Popsicles</h1>
+        </div>
+    </header>
+    
+    <nav id="top-links">
+        <ul id="top-nav-list">
+            <li><a href="http://127.0.0.1:5500/index.html">HOME</a></li>
+            <li><a href="#">STORE</a></li>
+            <li><a href="http://127.0.0.1:5500/contact-us.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+    
+    <main id="contact-main">
+        <h2>Contact Us</h2>
+        <form method="POST" action="#" id="form">
+            <div id="name-div">
+                <label for="name"> Name:</label>
+                <input id="name" name="name" type="text" required>
+            </div>
+            <div id="how-div">
+                <label for="how">How did you hear of us?</label>
+                <select id="how">
+                    <option value="Popsicle Monthly">Popsicle Monthly</option>>
+                    <option value="John Fulton">John Fulton</option>>
+                    <option value="Patrick Arace">Patrick Arace</option>>
+                </select>
+            </div>
+            <div id="color-div">
+                <label for="favorite-color"> What color is your favorite popsicle?</label>
+                <input id="favorite-color" name="favorite-color" type="color" value="#00afef"/>
+            </div>
+            <div id="comments-div">
+                <label for="comments"> Please let us know any comments you have:</label>
+                <textarea id="comments" name="comments" rows="10" cols="60"></textarea>
+            </div>
+        </form>
+        <input type="submit" id="final-submit">
+    </main>
+
+    <footer>&#169 Tech Elevator 2020</footer>
+
+</body>
+</html>
